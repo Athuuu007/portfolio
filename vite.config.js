@@ -12,10 +12,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'framer-motion'],
-          animations: ['canvas-confetti'],
-        },
+        // manualChunks has been removed to let Vite optimize automatically
       },
     },
   },
