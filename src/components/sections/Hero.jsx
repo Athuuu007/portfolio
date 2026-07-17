@@ -139,7 +139,7 @@ export default function Hero() {
             repeatDelay: 5,
             ease: "easeOut"
           } : { duration: 0 }}
-          className="mt-12 flex gap-4"
+          className="mt-12 flex flex-col sm:flex-row gap-4 w-full sm:w-auto items-stretch sm:items-center px-4 sm:px-0"
         >
           <SpecularButton 
             blur={12}

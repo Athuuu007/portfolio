@@ -71,7 +71,7 @@ export default function WhyHireMe() {
             const Icon = reason.icon;
             return (
               <ScrollStackItem key={index} itemClassName="w-full max-w-[800px] mx-auto !p-0 !bg-transparent !shadow-none !border-none">
-                <div className={`w-full h-[25rem] p-10 flex flex-col items-center text-center justify-center gap-6 group hover:scale-[1.02] transition-transform duration-500 relative overflow-hidden rounded-[40px] bg-gradient-to-br ${reason.gradient} border border-white/10 shadow-2xl`}>
+                <div className={`w-full h-auto min-h-[20rem] sm:h-[25rem] p-6 sm:p-10 py-10 flex flex-col items-center text-center justify-center gap-4 sm:gap-6 group hover:scale-[1.02] transition-transform duration-500 relative overflow-hidden rounded-[40px] bg-gradient-to-br ${reason.gradient} border border-white/10 shadow-2xl`}>
                   
                   {/* Subtle background glow */}
                   <div className={`absolute inset-0 opacity-20 blur-[80px] bg-current ${reason.color}`} />
